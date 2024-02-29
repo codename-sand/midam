@@ -24,12 +24,12 @@ $(document).ready(function () {
 
     $(function() {
         $(window).on("scroll", function() {
-            console.log("test1");
+            // console.log("test1");
             if($(window).scrollTop() > 100) {
-                console.log("test2");
+                // console.log("test2");
                 $(".mainNav").css({"background-color":"#ed7e37"});
             } else {
-                console.log("test3");
+                // console.log("test3");
                 $(".mainNav").css({"background-color":"transparent"});
             }
         });
